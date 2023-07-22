@@ -10,18 +10,34 @@
   </head>
   <body>
     <header class="header content-section content-section_theme_dark">
-      <img />
-      <nav>
-        <ul>
-          <li>Главная</li>
-          <li>О нас</li>
-          <li>Контакты</li>
+      <a class="header__logo"
+        ><img
+          class="header__logo-image"
+          src="./images/logo.svg"
+          alt="Лого сайта - текст с надписью 'вёрстка' латиницей"
+      /></a>
+
+      <nav class="header__menu">
+        <ul class="header__menu-list">
+          <li class="header__menu-item header__menu-item_active">
+            <a href="#" class="header__menu-link">Главная</a>
+          </li>
+          <li class="header__menu-item header__menu-item_active">
+            <a href="#" class="header__menu-link">О нас</a>
+          </li>
+          <li class="header__menu-item header__menu-item_active">
+            <a href="#" class="header__menu-link">Контакты</a>
+          </li>
         </ul>
       </nav>
     </header>
     <main>
       <section class="cover content-section content-section_theme_dark">
-        <h1>С чистого листа</h1>
+        <h1>
+          <span>C</span>
+          <span>чистого</span>
+          <span>листа</span>
+        </h1>
       </section>
       <section class="intro content-section content-section_theme_dark">
         8&nbsp;способов борьбы со страхом чистого листа
@@ -33,6 +49,8 @@
         Как все-таки начать что-то делать
       </section>
     </main>
-    <footer class="footer content-section content-section_theme_dark">Футер</footer>
+    <footer class="footer content-section content-section_theme_dark">
+      Футер
+    </footer>
   </body>
 </html>
