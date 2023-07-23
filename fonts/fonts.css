@@ -15,8 +15,7 @@
 @font-face {
   font-family: "EB Garamond";
   src: local("EB Garamond Medium"), local("EBGaramondMedium"),
-    local("EB-Garamond-medium") 
-    url("./ebgaramondmedium.woff") format("woff"),
+    local("EB-Garamond-medium") url("./ebgaramondmedium.woff") format("woff"),
     url("./ebgaramondmedium.woff2") format("woff2");
   /* url("./ebgaramondmedium.ttf") format("truetipe"); */
   font-weight: 500;
@@ -50,15 +49,15 @@
 
 /* Дополнительные стили для использования шрифтов */
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif, serif;
   font-weight: 400;
 }
 
-/* h1,
+h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "EB Garamond", serif;
-} */
+  font-family: "EB Garamond", serif, sans-serif;
+}

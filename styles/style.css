@@ -134,7 +134,31 @@ body {
   padding: 40px 20px;
 }
 
+.content-section__subtitle {
+  font-family: "EB Garamond", Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 115%;
+}
 
+.content-section__introduction {
+  font-size: 20px;
+  line-height: 27px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.content-section__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  line-height: 135%;
+  padding: 0 0 0 16px;
+}
+
+.content-section__list-accent {
+  font-weight: 700;
+}
 
 .how-to {
   padding: 40px 20px 60px 20px;
