@@ -50,9 +50,6 @@ body {
   height: 15px;
 }
 
-.header__menu {
-}
-
 .header__menu-list {
   display: flex;
   flex-direction: column;
@@ -77,9 +74,31 @@ body {
 }
 
 .cover {
-  padding: 7px 0 0 20px;
+  padding: 7px 24px 33px 20px;
   background-image: url("../images/cover.svg");
+  background-size: 95% auto;
+  min-height: 221px;
+  background-position: right;
   background-repeat: no-repeat;
+}
+
+.cover__title {
+  font-size: 72px;
+  font-family: "EB Garamond", sans-serif, Arial, Helvetica;
+  line-height: 100%;
+  font-weight: 400;
+}
+
+.accent-span {
+  display: block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .intro {
