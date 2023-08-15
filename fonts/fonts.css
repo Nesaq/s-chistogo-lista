@@ -1,0 +1,47 @@
+/* EB Garamond */
+
+@font-face {
+  font-family: "EB Garamond";
+  src: local("EB Garamond"), local("EBGaramond"), local("EB-Garamond"),
+    url("./ebgaramondregular.woff2") format("woff2"),
+    url("./ebgaramondregular.woff") format("woff");
+
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "EB Garamond";
+  src: local("EB Garamond Medium"), local("EBGaramondMedium"),
+    local("EB-Garamond-medium")
+    url("./ebgaramondmedium.woff2") format("woff2"),
+    url("./ebgaramondmedium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Inter */
+
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"), local("inter"), 
+    url("./interregular.woff2") format("woff2"),
+    url("./interregular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: local("InterBold"), local("interbold"),
+    local("Inter-Bold") 
+    url("./interbold.woff2") format("woff2"),
+    url("./interbold.woff") format("woff");
+
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
