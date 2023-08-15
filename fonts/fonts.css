@@ -49,18 +49,3 @@
   font-style: normal;
   font-display: swap;
 }
-
-/* Дополнительные стили для использования шрифтов */
-body {
-  font-family: "Inter", sans-serif, serif;
-  font-weight: 400;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "EB Garamond", serif, sans-serif;
-}

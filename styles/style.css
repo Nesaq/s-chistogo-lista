@@ -15,6 +15,8 @@ blockquote {
 body {
   margin: 0;
   background-color: #1e1e1e;
+  font-family: "Inter", sans-serif, serif;
+  font-weight: 400;
 }
 
 .content-section {
@@ -24,7 +26,7 @@ body {
 }
 
 .content-section_theme_dark {
-  background-color: #000000;
+  background-color: #131313;
   color: #f5f5f5;
 }
 
@@ -60,7 +62,7 @@ body {
 }
 
 .header__menu-link {
-  text-decoration: none;
+  font-size: 16px;
 }
 
 .header__menu-item_active:hover {
@@ -81,8 +83,9 @@ body {
 }
 
 .cover__title {
-  font-size: 72px;
   font-family: "EB Garamond", sans-serif, Arial, Helvetica;
+  font-size: 72px;
+  color: #fff;
   line-height: 100%;
   font-weight: 400;
 }
@@ -105,11 +108,14 @@ body {
 
 .intro__heading {
   display: flex;
+  color: #ccc;
 }
 
 .intro__title {
+  font-family: "Inter", sans-serif, serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 16px;
-  color: #ccc;
   line-height: 120%;
 }
 
@@ -135,13 +141,15 @@ body {
 .content-section__subtitle {
   font-family: "EB Garamond", Arial, Helvetica, sans-serif;
   font-size: 28px;
+  font-style: normal;
   font-weight: 500;
   line-height: 115%;
+  letter-spacing: 0.4px;
 }
 
 .content-section__introduction {
   font-size: 20px;
-  line-height: 27px;
+  line-height: 135%;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -151,65 +159,61 @@ body {
   flex-direction: column;
   row-gap: 16px;
   line-height: 135%;
-  padding-left: 16px;
+  padding-left: 14px;
 }
 
 .content-section__list-accent {
   font-weight: 700;
+  letter-spacing: 0.3px;
 }
 
 .how-to {
   padding: 40px 20px 60px 20px;
 }
-
 .cards-list {
   display: flex;
   flex-direction: column;
-  row-gap: 32px;
+  gap: 35px;
   list-style: none;
+  padding-top: 18px;
 }
 
 .card {
+  border-radius: 30px;
   padding: 20px;
+  line-height: 135%;
 }
 
 .card_theme_dark {
   background-color: #343434;
-  border-radius: 30px;
+  color: #F5F5F5;
 }
 
 .card_theme_bright {
-  background-color: #fee42a;
+  background: #FEE42A;
   color: #131313;
-  border-radius: 30px;
-}
-
-.card__author {
-  display: flex;
-  flex-direction: column;
-  row-gap: 8px;
 }
 
 .card__author-photo {
-  display: block;
-  width: 100px;
+  height: 100px;
+  width: auto;
   border-radius: 50%;
 }
 
 .card__author-name {
-  font-weight: 700;
-  line-height: 135%;
+ font-weight: 700;
+ padding-bottom: 7px;
 }
 
 .card__title {
-  font-size: 22px;
+  font-family: 'EB Garamond', serif;
+  font-style: normal;
   font-weight: 500;
+  font-size: 22px;
   line-height: 135%;
+  padding-bottom: 7px;
 }
 
-.card_text {
-  line-height: 135%;
-}
 
 .footer {
   display: flex;
