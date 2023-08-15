@@ -103,7 +103,7 @@ body {
 }
 
 .intro {
-  padding: 30px 20px 38px 20px;
+  padding: 1px 21px 38px 20px;
 }
 
 .intro__heading {
@@ -168,14 +168,15 @@ body {
 }
 
 .how-to {
-  padding: 40px 20px 60px 20px;
+  padding: 24px 20px 60px 20px;
 }
+
 .cards-list {
   display: flex;
   flex-direction: column;
   gap: 35px;
   list-style: none;
-  padding-top: 18px;
+  padding-top: 1px;
 }
 
 .card {
@@ -186,11 +187,11 @@ body {
 
 .card_theme_dark {
   background-color: #343434;
-  color: #F5F5F5;
+  color: #f5f5f5;
 }
 
 .card_theme_bright {
-  background: #FEE42A;
+  background: #fee42a;
   color: #131313;
 }
 
@@ -201,19 +202,20 @@ body {
 }
 
 .card__author-name {
- font-weight: 700;
- padding-bottom: 7px;
+  font-weight: 700;
+  padding-bottom: 7px;
+  letter-spacing: 0.4px;
 }
 
 .card__title {
-  font-family: 'EB Garamond', serif;
+  font-family: "EB Garamond", serif;
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
   line-height: 135%;
   padding-bottom: 7px;
+  letter-spacing: 0.4px;
 }
-
 
 .footer {
   display: flex;
